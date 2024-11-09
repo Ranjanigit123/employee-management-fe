@@ -6,7 +6,7 @@ import { Employee } from './employee';
   providedIn: 'root'
 })
 export class EmployeeService {
-  private url = 'http://localhost:5200';
+  private url = 'https://employee-management-be-1.onrender.com/employees';
   employees$ = signal<Employee[]>([]);
   employee$ = signal<Employee>({} as Employee);
   
