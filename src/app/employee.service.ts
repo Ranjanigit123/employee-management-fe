@@ -1,3 +1,4 @@
+//employee.service.ts
 import { Injectable, signal } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Employee } from './employee';
@@ -7,7 +8,7 @@ import { Employee } from './employee';
   providedIn: 'root'
 })
 export class EmployeeService {
-  private url = 'https://employee-management-be-1.onrender.com/employees';
+  private url = 'https://employee-management-be.onrender.com/employees';
   employees$ = signal<Employee[]>([]);
   employee$ = signal<Employee>({} as Employee);
   
