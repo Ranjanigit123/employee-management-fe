@@ -16,7 +16,7 @@
             "outputPath": "dist/client",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "baseHref": "/employee-management-fe/",
+               
             "polyfills": [
               "zone.js"
             ],
